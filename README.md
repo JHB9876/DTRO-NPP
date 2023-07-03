@@ -160,5 +160,20 @@ The second column in the table below indicates whether the regulation type is as
 |other-CycleLane |No||
 |other-PedestrianZone |No||
 
+APDS Operating Restriction values with no obvious D-TRO source:
+
+- carpoolOnly
+- commercialVehicleOnly
+- electricVehicleOnly
+- freeParking (but parking with no charge an option)
+- governmentVehicleOnly
+- loadingZoneCommercial
+- media
+- noParking
+- noWaiting
+- parkingTimeLimit
+- snow
+- streetCleaning
+- valetOnly
 
 
