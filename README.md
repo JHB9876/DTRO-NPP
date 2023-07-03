@@ -113,11 +113,11 @@ The second column in the table below indicates whether the regulation type is as
 |kerbside-RuralClearway |Yes| - none -|
 |kerbside-NoLoading |Yes| - none -|
 |kerbside-NoStopping |Yes| - none -|
-|kerbside-NoWaiting |Yes|'noWaiting'|
+|kerbside-NoWaiting |Yes|'noWaiting' (confirm 'no waiting' is the superset version of 'no parking'|
 |kerbside-SchoolKeepClear-YellowZig-zag_mandatory |Yes|- none -|
 |kerbside-OtherYellowZig-zag_mandatory |Yes|- none -|
-|kerbside-UrbanClearway |Yes| - none -|
-|kerbside-RedRouteClearway |Yes| - none -|
+|kerbside-UrbanClearway |Yes| - none (no stopping? no waiting?)|
+|kerbside-RedRouteClearway |Yes| - none (no stopping? no waiting?) |
 |kerbside-FootwayParkingProhibited |Yes| - none -|
 |kerbside-DisabledBadgeHoldersOnly |Yes|'disabledPersonPermitOnly'|
 |kerbside-LimitedWaiting |Yes|- none -|
