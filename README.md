@@ -18,10 +18,11 @@ Therefore, there is a strong similarity between the D-TRO and APDS modelling of:
 Additionally, the (tariff) Rate model in D-TRO is a simplified version of the Rates model that is found in APDS.
 
 D-TRO Rates sub-model
-![image](https://github.com/JHB9876/DTRO-NPP/assets/29631376/f28d3cc3-5da8-4ca8-b0b0-68ad8791c56c)
+![D-TRO_Rates](https://github.com/JHB9876/DTRO-NPP/assets/29631376/279e05e0-f246-4f76-bb99-d7d70d8267a3)
  
 APDS Rates sub-model
-![image](https://github.com/JHB9876/DTRO-NPP/assets/29631376/7131bd7b-b302-44db-b26b-fa0597883b53)
+![APDS_Rates](https://github.com/JHB9876/DTRO-NPP/assets/29631376/119cd4c0-f704-4c04-9f58-1c88d0faeb3a)
+
 
 
 ## Most interesting data to transfer
