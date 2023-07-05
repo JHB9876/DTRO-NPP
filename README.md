@@ -160,7 +160,7 @@ The second column in the table below indicates whether the regulation type is as
 |other-CycleLane |No||
 |other-PedestrianZone |No||
 
-Observation: those 'kerbside-' entries which have -none- listed against them will require further review.  These entries may be possible to map meaningfully to APDS entries (i.e. multiple-to-one mapping), or may highlight omissions from the APDS specification.
+_**Observation: those 'kerbside-' entries which have -none- listed against them will require further review.  These entries may be possible to map meaningfully to APDS entries (i.e. multiple-to-one mapping), or may highlight omissions from the APDS specification.**_
 
 APDS Operating Restriction values with no obvious D-TRO source:
 
