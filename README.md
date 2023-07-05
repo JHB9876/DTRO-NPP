@@ -177,4 +177,22 @@ APDS Operating Restriction values with no obvious D-TRO source:
 |streetCleaning|Again interesting - Will check whether we are aware of any TROs of this nature in UK|
 |valetOnly|Perhaps more of a vehicle usage or permit type than primary regulation, but it is not clear what the valetOnly qualifier in APDS permits or prohibits. It is assumed to relate to permit-limited parking)|
 
+## Other classification of kerbside regulations
 
+As a logical cross-check it is worth reviewing the types of regulations and restrictions that other 'standards' recognise. One industry specification that is regularly mentioned in the Open Curb Specification (https://github.com/openmobilityfoundation/curb-data-specification/tree/main/curbs#activities). 
+
+This presents the following categorisation of 'rules':
+
+Activities
+The following activities may be specified for rules within a policy. The reason we have "positive" and "negative" versions of the same activities (like loading and no parking) is due to priorities: a loading rule that is higher priority than a no loading rule, for instance, implies that the Curb Zone does allow loading at the time in question, while a no parking rule would not. If "negative", rate array should be empty.
+
+- parking - implies that loading and stopping are also permitted
+- no parking - may not stop and leave vehicle unattended
+- loading - loading of goods; implies that stopping is also permitted
+- no loading - no loading allowed; implies that parking is also prohibited
+- unloading - unloading of goods; implies that stopping is also permitted
+- no unloading - no unloading allowed; implies that parking is also prohibited
+- stopping - stopping briefly to pick up or drop off passengers
+- no stopping - stopping, loading, unloading, and parking are all prohibited; not a typical travel lane
+- travel - represents curbside lanes typically intended for moving vehicles, like bus lanes, bike lanes, and rush-hour-only travel lanes; implies that parking, loading, unloading, and stopping are prohibited.
+- no travel - no travel allowed; implies it could be used for other activities
