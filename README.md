@@ -113,7 +113,7 @@ The second column in the table below indicates whether the regulation type is as
 |kerbside-RuralClearway |Yes| - none -|
 |kerbside-NoLoading |Yes| - none -|
 |kerbside-NoStopping |Yes| - none -|
-|kerbside-NoWaiting |Yes|'noWaiting' (confirm 'no waiting' is the superset version of 'no parking'|
+|kerbside-NoWaiting |Yes|'noWaiting' (confirm 'no waiting' is the superset version of 'no parking')|
 |kerbside-SchoolKeepClear-YellowZig-zag_mandatory |Yes|- none -|
 |kerbside-OtherYellowZig-zag_mandatory |Yes|- none -|
 |kerbside-UrbanClearway |Yes| - none (no stopping? no waiting?)|
@@ -162,18 +162,19 @@ The second column in the table below indicates whether the regulation type is as
 
 APDS Operating Restriction values with no obvious D-TRO source:
 
-- carpoolOnly
-- commercialVehicleOnly
-- electricVehicleOnly
-- freeParking (but parking with no charge an option)
-- governmentVehicleOnly
-- loadingZoneCommercial
-- media
-- noParking
-- noWaiting
-- parkingTimeLimit
-- snow
-- streetCleaning
-- valetOnly
+| APDS operating restriction | Commentary |
+|------------------|---------|
+|carpoolOnly| Perhaps more of a vehicle usage or permit type than primary regulation, but it is not clear what the carpoolOnly qualifier in APDS permits or prohibits. It is assumed to relate to permit-limited parking)|
+|commercialVehicleOnly| |
+|electricVehicleOnly|Both APDS and D-TRO enable qualification by vehicle characteristic [fueltype] to limit to electric vehicles. Again, it is not clear what the electricVehicleOnly qualifier in APDS permits or prohibits|
+|freeParking| Parking with no charge an option?|
+|governmentVehicleOnly|This feels more like a VehicleUsage type qualifier - again, it does not state what is permitted or prohibited in APDS. D-TRO does not have away of qualifying Government vehicles|
+|loadingZoneCommercial|D-TRO 'Loading Place' regulation, but no means to identify commercial usage |
+|media|vehicle usage? no equivalent in D-TRO|
+|noParking| Checking with TRO experts whether no parking and no waiting are distinct legal regulations|
+|parkingTimeLimit| This is permitted parking with a defined rest period limit, and probably stated no return period - not distinct conceptually from 'kerbside-ParkingPlace' or other similar D-TRO regulations|
+|snow (clearance route)|Interesting - Will check whether we are aware of any TROs of this nature in UK|
+|streetCleaning|Again interesting - Will check whether we are aware of any TROs of this nature in UK|
+|valetOnly|Perhaps more of a vehicle usage or permit type than primary regulation, but it is not clear what the valetOnly qualifier in APDS permits or prohibits. It is assumed to relate to permit-limited parking)|
 
 
