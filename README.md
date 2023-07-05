@@ -19,7 +19,7 @@ Additionally, the (tariff) Rate model in D-TRO is a simplified version of the Ra
 
 D-TRO Rates sub-model
 ![image](https://github.com/JHB9876/DTRO-NPP/assets/29631376/f28d3cc3-5da8-4ca8-b0b0-68ad8791c56c)
-![image](https://github.com/JHB9876/DTRO-NPP/assets/29631376/f28d3cc3-5da8-4ca8-b0b0-68ad8791c56c)
+ 
 APDS Rates sub-model
 ![image](https://github.com/JHB9876/DTRO-NPP/assets/29631376/7131bd7b-b302-44db-b26b-fa0597883b53)
 
