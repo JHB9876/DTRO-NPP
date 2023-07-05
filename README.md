@@ -187,8 +187,8 @@ This presents the following categorisation of 'rules':
 
 _Activities_
 _The following activities may be specified for rules within a policy. The reason we have "positive" and "negative" versions of the same activities (like loading and no parking) is due to priorities: a loading rule that is higher priority than a no loading rule, for instance, implies that the Curb Zone does allow loading at the time in question, while a no parking rule would not. If "negative", rate array should be empty._
-
-_- parking - implies that loading and stopping are also permitted
+_
+- parking - implies that loading and stopping are also permitted
 - no parking - may not stop and leave vehicle unattended
 - loading - loading of goods; implies that stopping is also permitted
 - no loading - no loading allowed; implies that parking is also prohibited
@@ -199,4 +199,4 @@ _- parking - implies that loading and stopping are also permitted
 - travel - represents curbside lanes typically intended for moving vehicles, like bus lanes, bike lanes, and rush-hour-only travel lanes; implies that parking, loading, unloading, and stopping are prohibited.
 - no travel - no travel allowed; implies it could be used for other activities_
 
-This approach might be considered to be a bit simplified in the context of D-TRO data.
+This approach might be considered to be a bit simplified in the context of D-TRO data and the complexity of UK TRO regulation types.
