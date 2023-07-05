@@ -1,4 +1,4 @@
-# DTRO-NPP
+# D-TRO-NPP
 ![](https://img.shields.io/badge/status-work%20in%20progress-blue)
 
 This is a first investigation concerning the potential link between the DfT _D-TRO Service_ and _the National Parking Platform (NPP)_ initiatives. It is meant to help to examine the mapping between D-TRO data concepts and similar concepts in NPP, which conforms to APDS.
@@ -160,6 +160,8 @@ The second column in the table below indicates whether the regulation type is as
 |other-CycleLane |No||
 |other-PedestrianZone |No||
 
+Observation: those 'kerbside-' entries which have -none- listed against them will require further review.  These entries may be possible to map meaningfully to APDS entries (i.e. multiple-to-one mapping), or may highlight omissions from the APDS specification.
+
 APDS Operating Restriction values with no obvious D-TRO source:
 
 | APDS operating restriction | Commentary |
@@ -183,10 +185,10 @@ As a logical cross-check it is worth reviewing the types of regulations and rest
 
 This presents the following categorisation of 'rules':
 
-Activities
-The following activities may be specified for rules within a policy. The reason we have "positive" and "negative" versions of the same activities (like loading and no parking) is due to priorities: a loading rule that is higher priority than a no loading rule, for instance, implies that the Curb Zone does allow loading at the time in question, while a no parking rule would not. If "negative", rate array should be empty.
+_Activities_
+_The following activities may be specified for rules within a policy. The reason we have "positive" and "negative" versions of the same activities (like loading and no parking) is due to priorities: a loading rule that is higher priority than a no loading rule, for instance, implies that the Curb Zone does allow loading at the time in question, while a no parking rule would not. If "negative", rate array should be empty._
 
-- parking - implies that loading and stopping are also permitted
+_- parking - implies that loading and stopping are also permitted
 - no parking - may not stop and leave vehicle unattended
 - loading - loading of goods; implies that stopping is also permitted
 - no loading - no loading allowed; implies that parking is also prohibited
@@ -195,4 +197,6 @@ The following activities may be specified for rules within a policy. The reason 
 - stopping - stopping briefly to pick up or drop off passengers
 - no stopping - stopping, loading, unloading, and parking are all prohibited; not a typical travel lane
 - travel - represents curbside lanes typically intended for moving vehicles, like bus lanes, bike lanes, and rush-hour-only travel lanes; implies that parking, loading, unloading, and stopping are prohibited.
-- no travel - no travel allowed; implies it could be used for other activities
+- no travel - no travel allowed; implies it could be used for other activities_
+
+This approach might be considered to be a bit simplified in the context of D-TRO data.
