@@ -18,7 +18,7 @@ Therefore, there is a strong similarity between the D-TRO and APDS modelling of:
 
 These models are not identical.
 
-The Date and Time sub-model for D-TRO
+The Date and Time sub-model for D-TRO, is built on the earlier APDS model.  It has a little more functionality:
 ![D-TRO_Validity](https://github.com/JHB9876/DTRO-NPP/assets/29631376/25977d7d-c09d-497a-85df-88ede644d6a8)
 
 The Date and Time sub-model for APDS
