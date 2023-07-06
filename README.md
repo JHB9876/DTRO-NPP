@@ -24,6 +24,7 @@ The Date and Time sub-model for D-TRO, is built on the earlier APDS model.  It h
 The Date and Time sub-model for APDS
 ![APDS_Validity](https://github.com/JHB9876/DTRO-NPP/assets/29631376/59539ff5-ec9e-47d4-aeb6-4e0d87d07de7)
 
+CONDITION/ELIGIBILITY/QUALIFICATIONS MODELS... to be added.
 
 Additionally, the (tariff) Rate model in D-TRO is a simplified version of the Rates model that is found in APDS.
 
