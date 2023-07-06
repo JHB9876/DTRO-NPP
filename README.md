@@ -12,8 +12,18 @@ The APDS data model and D-TRO data model are designed for different purposes. Ho
 
 Therefore, there is a strong similarity between the D-TRO and APDS modelling of:
 
+- Date and time periods of applicability
 - Conditions (including vehicle characteristics)
-- Date and time periods
+- Rates (and tariffs)
+
+These models are not identical.
+
+The Date and Time sub-model for D-TRO
+![D-TRO_Validity](https://github.com/JHB9876/DTRO-NPP/assets/29631376/25977d7d-c09d-497a-85df-88ede644d6a8)
+
+The Date and Time sub-model for APDS
+![APDS_Validity](https://github.com/JHB9876/DTRO-NPP/assets/29631376/59539ff5-ec9e-47d4-aeb6-4e0d87d07de7)
+
 
 Additionally, the (tariff) Rate model in D-TRO is a simplified version of the Rates model that is found in APDS.
 
